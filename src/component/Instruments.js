@@ -55,7 +55,7 @@ export default class Instruments extends Component {
      })
 
    }
-   userDelete=id=>{
+   userDelete=(id)=>{
      axios.delete(`/api/instruments/${id}`).then(response=>{
        console.log("delete", response)
        this.setState({

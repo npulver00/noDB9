@@ -5,7 +5,10 @@ export default function title(){
     return(
         <div>
             <header>
-                Pianos and Violins for Sell! 
+                <div className="centertitle">
+                 <h1>Pianos and Violins for Sell!</h1> 
+                </div>
+
             </header>
         </div>
     )
