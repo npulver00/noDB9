@@ -24,7 +24,7 @@ class App extends Component {
          <Instruments allInstruments={this.state.allInstruments}/>
          </div>
          
-       
+       <footer>By Natalie Pulver</footer>
       </div>
     );
   }

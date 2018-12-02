@@ -11,7 +11,7 @@ export default function CardInstrument(props) {
       <div>{props.finishes}</div>
       <button onClick={() => props.userEdit(props.id)}>Edit</button>
       <input onChange={e => props.editInputBox(e)} />
-      <button onClick={() => props.userDelete(props.id)}>Delete</button>
+      <button className="delete" onClick={() => props.userDelete(props.id)}>X</button>
     </div>
   );
 }

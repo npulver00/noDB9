@@ -13,6 +13,7 @@ export default class MakeInstrument extends Component {
         
         return ( 
         <div className="inputMakeInstruments">
+           
             
             <div className="inputBox">Brand:<input name="brand" onChange={e=>{this.props.userInput(e)}}/></div>
             <div className="inputBox">Image:<input name="imageUrl" onChange={e=>{this.props.userInput(e)}}/></div>
