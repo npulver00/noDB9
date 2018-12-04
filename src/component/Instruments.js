@@ -67,6 +67,7 @@ export default class Instruments extends Component {
     console.log("id",id)
     const updateInstrument = {
       cost: this.state.editBox
+      
     }
     axios.put(`/api/instruments/${id}`, updateInstrument).then(response=>{
       console.log("response", response)
